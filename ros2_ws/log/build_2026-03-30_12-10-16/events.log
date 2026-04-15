@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000642] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001169] (my_lidar_pkg) JobQueued: {'identifier': 'my_lidar_pkg', 'dependencies': OrderedDict()}
+[0.001471] (my_lidar_pkg) JobStarted: {'identifier': 'my_lidar_pkg'}
+[0.099341] (-) TimerEvent: {}
+[0.199890] (-) TimerEvent: {}
+[0.300452] (-) TimerEvent: {}
+[0.401024] (-) TimerEvent: {}
+[0.501582] (-) TimerEvent: {}
+[0.602158] (-) TimerEvent: {}
+[0.702782] (-) TimerEvent: {}
+[0.803334] (-) TimerEvent: {}
+[0.903891] (-) TimerEvent: {}
+[1.004433] (-) TimerEvent: {}
+[1.105001] (-) TimerEvent: {}
+[1.205528] (-) TimerEvent: {}
+[1.306144] (-) TimerEvent: {}
+[1.406929] (-) TimerEvent: {}
+[1.507725] (-) TimerEvent: {}
+[1.563516] (my_lidar_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_lidar_pkg', 'build', '--build-base', '/home/meta3/ros2_ws/build/my_lidar_pkg/build', 'install', '--record', '/home/meta3/ros2_ws/build/my_lidar_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/meta3/ros2_ws/src/my_lidar_pkg', 'env': {'USER': 'meta3', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/meta3', 'OLDPWD': '/home/meta3/ros2_ws/src/my_lidar_pkg/launch', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super', 'LC_MONETARY': 'ko_KR.UTF-8', 'SYSTEMD_EXEC_PID': '5520', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/meta3/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'meta3', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1420424228552', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'meta3', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/meta3-desktop:@/tmp/.ICE-unix/1984,unix/meta3-desktop:/tmp/.ICE-unix/1984', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e47d056e_7bf9_49d8_ae62_c8c030844645', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/meta3/ros2_ws/install/sllidar_ros2:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/meta3/ros2_ws/build/my_lidar_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/', 'PYTHONPATH': '/home/meta3/ros2_ws/build/my_lidar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meta3/ros2_ws/install/my_lidar_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'CMAKE_PREFIX_PATH': '/home/meta3/ros2_ws/install/sllidar_ros2', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[1.607896] (-) TimerEvent: {}
+[1.708745] (-) TimerEvent: {}
+[1.809554] (-) TimerEvent: {}
+[1.910272] (-) TimerEvent: {}
+[2.011008] (-) TimerEvent: {}
+[2.081082] (my_lidar_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.082191] (my_lidar_pkg) StdoutLine: {'line': b'creating ../../build/my_lidar_pkg/my_lidar_pkg.egg-info\n'}
+[2.082652] (my_lidar_pkg) StdoutLine: {'line': b'writing ../../build/my_lidar_pkg/my_lidar_pkg.egg-info/PKG-INFO\n'}
+[2.083103] (my_lidar_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_lidar_pkg/my_lidar_pkg.egg-info/dependency_links.txt\n'}
+[2.083318] (my_lidar_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_lidar_pkg/my_lidar_pkg.egg-info/entry_points.txt\n'}
+[2.083531] (my_lidar_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_lidar_pkg/my_lidar_pkg.egg-info/requires.txt\n'}
+[2.083735] (my_lidar_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_lidar_pkg/my_lidar_pkg.egg-info/top_level.txt\n'}
+[2.084039] (my_lidar_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_lidar_pkg/my_lidar_pkg.egg-info/SOURCES.txt'\n"}
+[2.087021] (my_lidar_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_lidar_pkg/my_lidar_pkg.egg-info/SOURCES.txt'\n"}
+[2.088186] (my_lidar_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_lidar_pkg/my_lidar_pkg.egg-info/SOURCES.txt'\n"}
+[2.088483] (my_lidar_pkg) StdoutLine: {'line': b'running build\n'}
+[2.088670] (my_lidar_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.088872] (my_lidar_pkg) StdoutLine: {'line': b'creating /home/meta3/ros2_ws/build/my_lidar_pkg/build\n'}
+[2.089080] (my_lidar_pkg) StdoutLine: {'line': b'creating /home/meta3/ros2_ws/build/my_lidar_pkg/build/lib\n'}
+[2.089262] (my_lidar_pkg) StdoutLine: {'line': b'creating /home/meta3/ros2_ws/build/my_lidar_pkg/build/lib/my_lidar_pkg\n'}
+[2.089398] (my_lidar_pkg) StdoutLine: {'line': b'copying my_lidar_pkg/__init__.py -> /home/meta3/ros2_ws/build/my_lidar_pkg/build/lib/my_lidar_pkg\n'}
+[2.089568] (my_lidar_pkg) StdoutLine: {'line': b'running install\n'}
+[2.090384] (my_lidar_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.091726] (my_lidar_pkg) StdoutLine: {'line': b'creating /home/meta3/ros2_ws/install/my_lidar_pkg/lib/python3.10/site-packages/my_lidar_pkg\n'}
+[2.091919] (my_lidar_pkg) StdoutLine: {'line': b'copying /home/meta3/ros2_ws/build/my_lidar_pkg/build/lib/my_lidar_pkg/__init__.py -> /home/meta3/ros2_ws/install/my_lidar_pkg/lib/python3.10/site-packages/my_lidar_pkg\n'}
+[2.092953] (my_lidar_pkg) StdoutLine: {'line': b'byte-compiling /home/meta3/ros2_ws/install/my_lidar_pkg/lib/python3.10/site-packages/my_lidar_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[2.093389] (my_lidar_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.093571] (my_lidar_pkg) StdoutLine: {'line': b'creating /home/meta3/ros2_ws/install/my_lidar_pkg/share/ament_index\n'}
+[2.093770] (my_lidar_pkg) StdoutLine: {'line': b'creating /home/meta3/ros2_ws/install/my_lidar_pkg/share/ament_index/resource_index\n'}
+[2.093936] (my_lidar_pkg) StdoutLine: {'line': b'creating /home/meta3/ros2_ws/install/my_lidar_pkg/share/ament_index/resource_index/packages\n'}
+[2.094100] (my_lidar_pkg) StdoutLine: {'line': b'copying resource/my_lidar_pkg -> /home/meta3/ros2_ws/install/my_lidar_pkg/share/ament_index/resource_index/packages\n'}
+[2.094268] (my_lidar_pkg) StdoutLine: {'line': b'copying package.xml -> /home/meta3/ros2_ws/install/my_lidar_pkg/share/my_lidar_pkg\n'}
+[2.094444] (my_lidar_pkg) StdoutLine: {'line': b'creating /home/meta3/ros2_ws/install/my_lidar_pkg/share/my_lidar_pkg/launch\n'}
+[2.094618] (my_lidar_pkg) StdoutLine: {'line': b'copying launch/lidar_filter_launch.py -> /home/meta3/ros2_ws/install/my_lidar_pkg/share/my_lidar_pkg/launch\n'}
+[2.094812] (my_lidar_pkg) StdoutLine: {'line': b'creating /home/meta3/ros2_ws/install/my_lidar_pkg/share/my_lidar_pkg/config\n'}
+[2.095134] (my_lidar_pkg) StdoutLine: {'line': b'copying config/laser_filter_params.yaml -> /home/meta3/ros2_ws/install/my_lidar_pkg/share/my_lidar_pkg/config\n'}
+[2.095271] (my_lidar_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.099958] (my_lidar_pkg) StdoutLine: {'line': b'Copying ../../build/my_lidar_pkg/my_lidar_pkg.egg-info to /home/meta3/ros2_ws/install/my_lidar_pkg/lib/python3.10/site-packages/my_lidar_pkg-0.0.0-py3.10.egg-info\n'}
+[2.100451] (my_lidar_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.111097] (-) TimerEvent: {}
+[2.139395] (my_lidar_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/meta3/ros2_ws/build/my_lidar_pkg/install.log'\n"}
+[2.207387] (my_lidar_pkg) CommandEnded: {'returncode': 0}
+[2.211206] (-) TimerEvent: {}
+[2.253801] (my_lidar_pkg) JobEnded: {'identifier': 'my_lidar_pkg', 'rc': 0}
+[2.256161] (-) EventReactorShutdown: {}

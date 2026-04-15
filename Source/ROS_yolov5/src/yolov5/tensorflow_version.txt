@@ -1,0 +1,2 @@
+build_tensorflow "https://developer.download.nvidia.com/compute/redist/jp/v50/tensorflow/tensorflow-2.9.1+nv22.06-cp38-cp38-linux_aarch64.whl" \
+					  "tensorflow-2.9.1+nv22.06-cp38-cp38-linux_aarch64.whl" \

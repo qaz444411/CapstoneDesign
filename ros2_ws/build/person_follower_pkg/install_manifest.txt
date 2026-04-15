@@ -1,0 +1,15 @@
+/home/meta3/ros2_ws/install/person_follower_pkg/share/ament_index/resource_index/package_run_dependencies/person_follower_pkg
+/home/meta3/ros2_ws/install/person_follower_pkg/share/ament_index/resource_index/parent_prefix_path/person_follower_pkg
+/home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/environment/ament_prefix_path.sh
+/home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/environment/ament_prefix_path.dsv
+/home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/environment/path.sh
+/home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/environment/path.dsv
+/home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/local_setup.bash
+/home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/local_setup.sh
+/home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/local_setup.zsh
+/home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/local_setup.dsv
+/home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/package.dsv
+/home/meta3/ros2_ws/install/person_follower_pkg/share/ament_index/resource_index/packages/person_follower_pkg
+/home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/cmake/person_follower_pkgConfig.cmake
+/home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/cmake/person_follower_pkgConfig-version.cmake
+/home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/package.xml

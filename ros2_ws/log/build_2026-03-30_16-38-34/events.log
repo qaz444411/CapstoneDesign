@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000668] (-) JobUnselected: {'identifier': 'my_lidar_pkg'}
+[0.001163] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001458] (person_follower_pkg) JobQueued: {'identifier': 'person_follower_pkg', 'dependencies': OrderedDict()}
+[0.001794] (person_follower_pkg) JobStarted: {'identifier': 'person_follower_pkg'}
+[0.027464] (person_follower_pkg) JobProgress: {'identifier': 'person_follower_pkg', 'progress': 'cmake'}
+[0.028683] (person_follower_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/meta3/ros2_ws/src/person_follower_pkg', '-DCMAKE_INSTALL_PREFIX=/home/meta3/ros2_ws/install/person_follower_pkg'], 'cwd': '/home/meta3/ros2_ws/build/person_follower_pkg', 'env': OrderedDict([('USER', 'meta3'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/meta3'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/meta3/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.113.0'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1984'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/meta3/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'meta3'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1420424228552'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'meta3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/meta3-desktop:@/tmp/.ICE-unix/1960,unix/meta3-desktop:/tmp/.ICE-unix/1960'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/62ae51ad_3eab_449a_86de_d91a3f5e1cee'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('JETSON_SOC', 'tegra234'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cd86510c07.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/meta3/ros2_ws/install/sllidar_ros2:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/meta3/ros2_ws/build/person_follower_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/meta3/ros2_ws/install/my_lidar_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/meta3/ros2_ws/install/sllidar_ros2:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.099348] (-) TimerEvent: {}
+[0.200185] (-) TimerEvent: {}
+[0.301026] (-) TimerEvent: {}
+[0.402204] (-) TimerEvent: {}
+[0.503046] (-) TimerEvent: {}
+[0.591460] (person_follower_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.603205] (-) TimerEvent: {}
+[0.703972] (-) TimerEvent: {}
+[0.804934] (-) TimerEvent: {}
+[0.905718] (-) TimerEvent: {}
+[1.006543] (-) TimerEvent: {}
+[1.016769] (person_follower_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.041782] (person_follower_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.106734] (-) TimerEvent: {}
+[1.193100] (person_follower_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.204193] (person_follower_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.206336] (person_follower_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.206774] (-) TimerEvent: {}
+[1.208363] (person_follower_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.216914] (person_follower_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.307048] (-) TimerEvent: {}
+[1.376634] (person_follower_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.396736] (person_follower_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.397468] (person_follower_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.398174] (person_follower_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.407116] (-) TimerEvent: {}
+[1.420949] (person_follower_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.507297] (-) TimerEvent: {}
+[1.607977] (-) TimerEvent: {}
+[1.708657] (-) TimerEvent: {}
+[1.809329] (-) TimerEvent: {}
+[1.856036] (person_follower_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.909481] (-) TimerEvent: {}
+[2.010101] (-) TimerEvent: {}
+[2.110866] (-) TimerEvent: {}
+[2.139145] (person_follower_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.211043] (-) TimerEvent: {}
+[2.276088] (person_follower_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.292233] (person_follower_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.311224] (-) TimerEvent: {}
+[2.320937] (person_follower_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.363616] (person_follower_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.409231] (person_follower_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.411303] (-) TimerEvent: {}
+[2.512486] (-) TimerEvent: {}
+[2.553211] (person_follower_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.562115] (person_follower_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.612665] (-) TimerEvent: {}
+[2.714036] (-) TimerEvent: {}
+[2.812916] (person_follower_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.829983] (-) TimerEvent: {}
+[2.926452] (person_follower_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.930226] (-) TimerEvent: {}
+[3.030896] (-) TimerEvent: {}
+[3.044374] (person_follower_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.076710] (person_follower_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.131075] (-) TimerEvent: {}
+[3.218142] (person_follower_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.219127] (person_follower_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.231261] (-) TimerEvent: {}
+[3.331979] (-) TimerEvent: {}
+[3.370538] (person_follower_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.374365] (person_follower_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.432175] (-) TimerEvent: {}
+[3.526834] (person_follower_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.532280] (-) TimerEvent: {}
+[3.612116] (person_follower_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.632463] (-) TimerEvent: {}
+[3.733127] (-) TimerEvent: {}
+[3.829064] (person_follower_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.829582] (person_follower_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.829742] (person_follower_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.831605] (person_follower_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.833217] (-) TimerEvent: {}
+[3.835702] (person_follower_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.836050] (person_follower_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.837863] (person_follower_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.845049] (person_follower_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.861260] (person_follower_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[3.866598] (person_follower_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/meta3/ros2_ws/build/person_follower_pkg\n'}
+[3.900936] (person_follower_pkg) CommandEnded: {'returncode': 0}
+[3.902455] (person_follower_pkg) JobProgress: {'identifier': 'person_follower_pkg', 'progress': 'build'}
+[3.903795] (person_follower_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/meta3/ros2_ws/build/person_follower_pkg', '--', '-j6', '-l6'], 'cwd': '/home/meta3/ros2_ws/build/person_follower_pkg', 'env': OrderedDict([('USER', 'meta3'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/meta3'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/meta3/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.113.0'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1984'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/meta3/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'meta3'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1420424228552'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'meta3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/meta3-desktop:@/tmp/.ICE-unix/1960,unix/meta3-desktop:/tmp/.ICE-unix/1960'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/62ae51ad_3eab_449a_86de_d91a3f5e1cee'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('JETSON_SOC', 'tegra234'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cd86510c07.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/meta3/ros2_ws/install/sllidar_ros2:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/meta3/ros2_ws/build/person_follower_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/meta3/ros2_ws/install/my_lidar_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/meta3/ros2_ws/install/sllidar_ros2:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[3.933425] (-) TimerEvent: {}
+[3.984753] (person_follower_pkg) CommandEnded: {'returncode': 0}
+[3.986599] (person_follower_pkg) JobProgress: {'identifier': 'person_follower_pkg', 'progress': 'install'}
+[4.006131] (person_follower_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/meta3/ros2_ws/build/person_follower_pkg'], 'cwd': '/home/meta3/ros2_ws/build/person_follower_pkg', 'env': OrderedDict([('USER', 'meta3'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/meta3'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/meta3/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.113.0'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1984'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/meta3/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'meta3'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1420424228552'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'meta3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/meta3-desktop:@/tmp/.ICE-unix/1960,unix/meta3-desktop:/tmp/.ICE-unix/1960'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/62ae51ad_3eab_449a_86de_d91a3f5e1cee'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('JETSON_SOC', 'tegra234'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cd86510c07.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/meta3/ros2_ws/install/sllidar_ros2:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/meta3/ros2_ws/build/person_follower_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/meta3/ros2_ws/install/my_lidar_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/meta3/ros2_ws/install/sllidar_ros2:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[4.023264] (person_follower_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.024352] (person_follower_pkg) StdoutLine: {'line': b'-- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/ament_index/resource_index/package_run_dependencies/person_follower_pkg\n'}
+[4.024832] (person_follower_pkg) StdoutLine: {'line': b'-- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/ament_index/resource_index/parent_prefix_path/person_follower_pkg\n'}
+[4.025478] (person_follower_pkg) StdoutLine: {'line': b'-- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/environment/ament_prefix_path.sh\n'}
+[4.025685] (person_follower_pkg) StdoutLine: {'line': b'-- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/environment/ament_prefix_path.dsv\n'}
+[4.025903] (person_follower_pkg) StdoutLine: {'line': b'-- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/environment/path.sh\n'}
+[4.026398] (person_follower_pkg) StdoutLine: {'line': b'-- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/environment/path.dsv\n'}
+[4.026685] (person_follower_pkg) StdoutLine: {'line': b'-- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/local_setup.bash\n'}
+[4.026893] (person_follower_pkg) StdoutLine: {'line': b'-- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/local_setup.sh\n'}
+[4.027123] (person_follower_pkg) StdoutLine: {'line': b'-- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/local_setup.zsh\n'}
+[4.027769] (person_follower_pkg) StdoutLine: {'line': b'-- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/local_setup.dsv\n'}
+[4.028345] (person_follower_pkg) StdoutLine: {'line': b'-- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/package.dsv\n'}
+[4.028821] (person_follower_pkg) StdoutLine: {'line': b'-- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/ament_index/resource_index/packages/person_follower_pkg\n'}
+[4.029168] (person_follower_pkg) StdoutLine: {'line': b'-- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/cmake/person_follower_pkgConfig.cmake\n'}
+[4.029431] (person_follower_pkg) StdoutLine: {'line': b'-- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/cmake/person_follower_pkgConfig-version.cmake\n'}
+[4.029686] (person_follower_pkg) StdoutLine: {'line': b'-- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/package.xml\n'}
+[4.032904] (person_follower_pkg) CommandEnded: {'returncode': 0}
+[4.034705] (-) TimerEvent: {}
+[4.118983] (person_follower_pkg) JobEnded: {'identifier': 'person_follower_pkg', 'rc': 0}
+[4.121096] (-) EventReactorShutdown: {}

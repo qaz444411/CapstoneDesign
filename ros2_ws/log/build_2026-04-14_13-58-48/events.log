@@ -1,0 +1,239 @@
+[0.000000] (-) TimerEvent: {}
+[0.000649] (-) JobUnselected: {'identifier': 'my_lidar_pkg'}
+[0.001123] (-) JobUnselected: {'identifier': 'person_follower_pkg'}
+[0.001379] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.001636] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.027427] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.032615] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/meta3/ros2_ws/src/sllidar_ros2', '-DCMAKE_INSTALL_PREFIX=/home/meta3/ros2_ws/install/sllidar_ros2'], 'cwd': '/home/meta3/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('USER', 'meta3'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/meta3'), ('OLDPWD', '/home/meta3'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '4276'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/meta3/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'meta3'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1420424228552'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'meta3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/meta3-desktop:@/tmp/.ICE-unix/1975,unix/meta3-desktop:/tmp/.ICE-unix/1975'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d91d7f72_4851_449b_92e2_f697583fcf3d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/meta3/ros2_ws/install/sllidar_ros2:/home/meta3/ros2_ws/install/person_follower_pkg:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/meta3/ros2_ws/build/sllidar_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/meta3/ros2_ws/install/my_lidar_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/meta3/ros2_ws/install/sllidar_ros2:/home/meta3/ros2_ws/install/person_follower_pkg:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.099354] (-) TimerEvent: {}
+[0.190804] (sllidar_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199499] (-) TimerEvent: {}
+[0.300214] (-) TimerEvent: {}
+[0.400929] (-) TimerEvent: {}
+[0.501509] (-) TimerEvent: {}
+[0.532542] (sllidar_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.596837] (sllidar_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.601631] (-) TimerEvent: {}
+[0.702262] (-) TimerEvent: {}
+[0.734213] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.744382] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.768105] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.801188] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.802333] (-) TimerEvent: {}
+[0.841682] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.902528] (-) TimerEvent: {}
+[0.958036] (sllidar_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.965066] (sllidar_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.002737] (-) TimerEvent: {}
+[1.103468] (-) TimerEvent: {}
+[1.204144] (-) TimerEvent: {}
+[1.215717] (sllidar_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.304302] (-) TimerEvent: {}
+[1.374711] (sllidar_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.404501] (-) TimerEvent: {}
+[1.468301] (sllidar_ros2) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.504638] (-) TimerEvent: {}
+[1.605208] (-) TimerEvent: {}
+[1.676791] (sllidar_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.705469] (-) TimerEvent: {}
+[1.737670] (sllidar_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[1.751204] (sllidar_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/meta3/ros2_ws/build/sllidar_ros2\n'}
+[1.777836] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[1.779531] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[1.780849] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/meta3/ros2_ws/build/sllidar_ros2', '--', '-j6', '-l6'], 'cwd': '/home/meta3/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('USER', 'meta3'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/meta3'), ('OLDPWD', '/home/meta3'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '4276'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/meta3/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'meta3'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1420424228552'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'meta3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/meta3-desktop:@/tmp/.ICE-unix/1975,unix/meta3-desktop:/tmp/.ICE-unix/1975'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d91d7f72_4851_449b_92e2_f697583fcf3d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/meta3/ros2_ws/install/sllidar_ros2:/home/meta3/ros2_ws/install/person_follower_pkg:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/meta3/ros2_ws/build/sllidar_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/meta3/ros2_ws/install/my_lidar_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/meta3/ros2_ws/install/sllidar_ros2:/home/meta3/ros2_ws/install/person_follower_pkg:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[1.805591] (-) TimerEvent: {}
+[1.873123] (sllidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sllidar_client\x1b[0m\n'}
+[1.897886] (sllidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sllidar_node\x1b[0m\n'}
+[1.905714] (-) TimerEvent: {}
+[2.006408] (-) TimerEvent: {}
+[2.013564] (sllidar_ros2) StdoutLine: {'line': b'[ 15%] Built target sllidar_client\n'}
+[2.014003] (sllidar_ros2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o\x1b[0m\n'}
+[2.106572] (-) TimerEvent: {}
+[2.207353] (-) TimerEvent: {}
+[2.308138] (-) TimerEvent: {}
+[2.409184] (-) TimerEvent: {}
+[2.510181] (-) TimerEvent: {}
+[2.610850] (-) TimerEvent: {}
+[2.712014] (-) TimerEvent: {}
+[2.812911] (-) TimerEvent: {}
+[2.913811] (-) TimerEvent: {}
+[3.014661] (-) TimerEvent: {}
+[3.115801] (-) TimerEvent: {}
+[3.216770] (-) TimerEvent: {}
+[3.317889] (-) TimerEvent: {}
+[3.419023] (-) TimerEvent: {}
+[3.519727] (-) TimerEvent: {}
+[3.620600] (-) TimerEvent: {}
+[3.721399] (-) TimerEvent: {}
+[3.822192] (-) TimerEvent: {}
+[3.922833] (-) TimerEvent: {}
+[4.023514] (-) TimerEvent: {}
+[4.124496] (-) TimerEvent: {}
+[4.225324] (-) TimerEvent: {}
+[4.326133] (-) TimerEvent: {}
+[4.426768] (-) TimerEvent: {}
+[4.527402] (-) TimerEvent: {}
+[4.628053] (-) TimerEvent: {}
+[4.728719] (-) TimerEvent: {}
+[4.829519] (-) TimerEvent: {}
+[4.930321] (-) TimerEvent: {}
+[5.031132] (-) TimerEvent: {}
+[5.131958] (-) TimerEvent: {}
+[5.232766] (-) TimerEvent: {}
+[5.333580] (-) TimerEvent: {}
+[5.434402] (-) TimerEvent: {}
+[5.535228] (-) TimerEvent: {}
+[5.636130] (-) TimerEvent: {}
+[5.737175] (-) TimerEvent: {}
+[5.837998] (-) TimerEvent: {}
+[5.938811] (-) TimerEvent: {}
+[6.039473] (-) TimerEvent: {}
+[6.140133] (-) TimerEvent: {}
+[6.240890] (-) TimerEvent: {}
+[6.341568] (-) TimerEvent: {}
+[6.442762] (-) TimerEvent: {}
+[6.543894] (-) TimerEvent: {}
+[6.644688] (-) TimerEvent: {}
+[6.745495] (-) TimerEvent: {}
+[6.846264] (-) TimerEvent: {}
+[6.946980] (-) TimerEvent: {}
+[7.047793] (-) TimerEvent: {}
+[7.148618] (-) TimerEvent: {}
+[7.249409] (-) TimerEvent: {}
+[7.350211] (-) TimerEvent: {}
+[7.451011] (-) TimerEvent: {}
+[7.551794] (-) TimerEvent: {}
+[7.591197] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/meta3/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[7.591857] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/meta3/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[7.592039] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/meta3/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[7.592169] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/meta3/ros2_ws/src/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[7.592284] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/meta3/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.592412] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[7.592524] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.592630] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/meta3/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[7.592735] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/meta3/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[7.592849] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/meta3/ros2_ws/src/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[7.592963] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/meta3/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.593084] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[7.593198] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.651988] (-) TimerEvent: {}
+[7.752773] (-) TimerEvent: {}
+[7.853491] (-) TimerEvent: {}
+[7.954240] (-) TimerEvent: {}
+[8.055044] (-) TimerEvent: {}
+[8.155842] (-) TimerEvent: {}
+[8.256510] (-) TimerEvent: {}
+[8.357143] (-) TimerEvent: {}
+[8.457821] (-) TimerEvent: {}
+[8.558597] (-) TimerEvent: {}
+[8.659437] (-) TimerEvent: {}
+[8.760101] (-) TimerEvent: {}
+[8.860665] (-) TimerEvent: {}
+[8.961372] (-) TimerEvent: {}
+[9.062020] (-) TimerEvent: {}
+[9.162819] (-) TimerEvent: {}
+[9.263606] (-) TimerEvent: {}
+[9.364417] (-) TimerEvent: {}
+[9.465202] (-) TimerEvent: {}
+[9.565992] (-) TimerEvent: {}
+[9.666790] (-) TimerEvent: {}
+[9.767651] (-) TimerEvent: {}
+[9.868347] (-) TimerEvent: {}
+[9.968995] (-) TimerEvent: {}
+[10.069691] (-) TimerEvent: {}
+[10.170521] (-) TimerEvent: {}
+[10.271333] (-) TimerEvent: {}
+[10.372199] (-) TimerEvent: {}
+[10.473011] (-) TimerEvent: {}
+[10.573830] (-) TimerEvent: {}
+[10.674490] (-) TimerEvent: {}
+[10.775164] (-) TimerEvent: {}
+[10.875985] (-) TimerEvent: {}
+[10.976778] (-) TimerEvent: {}
+[11.077414] (-) TimerEvent: {}
+[11.178052] (-) TimerEvent: {}
+[11.278825] (-) TimerEvent: {}
+[11.379671] (-) TimerEvent: {}
+[11.480493] (-) TimerEvent: {}
+[11.581218] (-) TimerEvent: {}
+[11.681902] (-) TimerEvent: {}
+[11.782699] (-) TimerEvent: {}
+[11.883490] (-) TimerEvent: {}
+[11.984294] (-) TimerEvent: {}
+[12.084893] (-) TimerEvent: {}
+[12.185496] (-) TimerEvent: {}
+[12.286107] (-) TimerEvent: {}
+[12.386817] (-) TimerEvent: {}
+[12.487512] (-) TimerEvent: {}
+[12.588383] (-) TimerEvent: {}
+[12.689261] (-) TimerEvent: {}
+[12.790032] (-) TimerEvent: {}
+[12.890819] (-) TimerEvent: {}
+[12.991594] (-) TimerEvent: {}
+[13.092340] (-) TimerEvent: {}
+[13.169235] (sllidar_ros2) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX executable sllidar_node\x1b[0m\n'}
+[13.192627] (-) TimerEvent: {}
+[13.293643] (-) TimerEvent: {}
+[13.394484] (-) TimerEvent: {}
+[13.495127] (-) TimerEvent: {}
+[13.596068] (-) TimerEvent: {}
+[13.697163] (-) TimerEvent: {}
+[13.797962] (-) TimerEvent: {}
+[13.898901] (-) TimerEvent: {}
+[13.999745] (-) TimerEvent: {}
+[14.100674] (-) TimerEvent: {}
+[14.201702] (-) TimerEvent: {}
+[14.215175] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[14.243905] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[14.246990] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[14.266328] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/meta3/ros2_ws/build/sllidar_ros2'], 'cwd': '/home/meta3/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('USER', 'meta3'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/meta3'), ('OLDPWD', '/home/meta3'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '4276'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/meta3/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'meta3'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1420424228552'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'meta3'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/meta3-desktop:@/tmp/.ICE-unix/1975,unix/meta3-desktop:/tmp/.ICE-unix/1975'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d91d7f72_4851_449b_92e2_f697583fcf3d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/meta3/ros2_ws/install/sllidar_ros2:/home/meta3/ros2_ws/install/person_follower_pkg:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/meta3/ros2_ws/build/sllidar_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/meta3/ros2_ws/install/my_lidar_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/meta3/ros2_ws/install/sllidar_ros2:/home/meta3/ros2_ws/install/person_follower_pkg:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[14.286726] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.287976] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.289139] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[14.289425] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[14.289643] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[14.289830] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[14.290025] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[14.290219] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[14.290404] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[14.290607] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[14.290809] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[14.291010] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[14.291208] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[14.291416] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[14.291615] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[14.291818] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[14.292072] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[14.292253] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[14.292452] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[14.292689] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[14.292957] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[14.293184] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[14.293378] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[14.293559] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[14.293740] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[14.294192] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[14.294724] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[14.295254] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[14.295575] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[14.296192] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[14.297686] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[14.298014] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[14.298301] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[14.298591] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[14.298878] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[14.299153] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[14.299430] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[14.299693] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[14.300002] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[14.300269] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[14.301712] (-) TimerEvent: {}
+[14.318720] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[14.319095] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.319264] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.319411] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[14.319550] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[14.319749] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meta3/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[14.323970] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[14.394695] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[14.396458] (-) EventReactorShutdown: {}

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/my_lidar_pkg/my_lidar_pkg.egg-info
+writing ../../build/my_lidar_pkg/my_lidar_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_lidar_pkg/my_lidar_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/my_lidar_pkg/my_lidar_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/my_lidar_pkg/my_lidar_pkg.egg-info/requires.txt
+writing top-level names to ../../build/my_lidar_pkg/my_lidar_pkg.egg-info/top_level.txt
+writing manifest file '../../build/my_lidar_pkg/my_lidar_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_lidar_pkg/my_lidar_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_lidar_pkg/my_lidar_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/meta3/ros2_ws/build/my_lidar_pkg/build
+creating /home/meta3/ros2_ws/build/my_lidar_pkg/build/lib
+creating /home/meta3/ros2_ws/build/my_lidar_pkg/build/lib/my_lidar_pkg
+copying my_lidar_pkg/__init__.py -> /home/meta3/ros2_ws/build/my_lidar_pkg/build/lib/my_lidar_pkg
+running install
+running install_lib
+creating /home/meta3/ros2_ws/install/my_lidar_pkg/lib/python3.10/site-packages/my_lidar_pkg
+copying /home/meta3/ros2_ws/build/my_lidar_pkg/build/lib/my_lidar_pkg/__init__.py -> /home/meta3/ros2_ws/install/my_lidar_pkg/lib/python3.10/site-packages/my_lidar_pkg
+byte-compiling /home/meta3/ros2_ws/install/my_lidar_pkg/lib/python3.10/site-packages/my_lidar_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/meta3/ros2_ws/install/my_lidar_pkg/share/ament_index
+creating /home/meta3/ros2_ws/install/my_lidar_pkg/share/ament_index/resource_index
+creating /home/meta3/ros2_ws/install/my_lidar_pkg/share/ament_index/resource_index/packages
+copying resource/my_lidar_pkg -> /home/meta3/ros2_ws/install/my_lidar_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/meta3/ros2_ws/install/my_lidar_pkg/share/my_lidar_pkg
+creating /home/meta3/ros2_ws/install/my_lidar_pkg/share/my_lidar_pkg/launch
+copying launch/lidar_filter_launch.py -> /home/meta3/ros2_ws/install/my_lidar_pkg/share/my_lidar_pkg/launch
+creating /home/meta3/ros2_ws/install/my_lidar_pkg/share/my_lidar_pkg/config
+copying config/laser_filter_params.yaml -> /home/meta3/ros2_ws/install/my_lidar_pkg/share/my_lidar_pkg/config
+running install_egg_info
+Copying ../../build/my_lidar_pkg/my_lidar_pkg.egg-info to /home/meta3/ros2_ws/install/my_lidar_pkg/lib/python3.10/site-packages/my_lidar_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/meta3/ros2_ws/build/my_lidar_pkg/install.log'

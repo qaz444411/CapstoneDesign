@@ -1,0 +1,64 @@
+[0.028s] Invoking command in '/home/meta3/ros2_ws/build/person_follower_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble /usr/bin/cmake /home/meta3/ros2_ws/src/person_follower_pkg -DCMAKE_INSTALL_PREFIX=/home/meta3/ros2_ws/install/person_follower_pkg
+[0.590s] -- The C compiler identification is GNU 11.4.0
+[1.015s] -- The CXX compiler identification is GNU 11.4.0
+[1.041s] -- Detecting C compiler ABI info
+[1.192s] -- Detecting C compiler ABI info - done
+[1.203s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.205s] -- Detecting C compile features
+[1.207s] -- Detecting C compile features - done
+[1.215s] -- Detecting CXX compiler ABI info
+[1.375s] -- Detecting CXX compiler ABI info - done
+[1.395s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.396s] -- Detecting CXX compile features
+[1.396s] -- Detecting CXX compile features - done
+[1.419s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.855s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.138s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[2.275s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.291s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.319s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.362s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.408s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.552s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.561s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.828s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.925s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.043s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.075s] -- Looking for pthread.h
+[3.217s] -- Looking for pthread.h - found
+[3.217s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.369s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.373s] -- Found Threads: TRUE  
+[3.525s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.611s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.828s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.828s] -- Configured cppcheck include dirs: 
+[3.828s] -- Configured cppcheck exclude dirs and/or files: 
+[3.830s] -- Added test 'lint_cmake' to check CMake code style
+[3.834s] -- Added test 'uncrustify' to check C / C++ code style
+[3.834s] -- Configured uncrustify additional arguments: 
+[3.836s] -- Added test 'xmllint' to check XML markup files
+[3.843s] -- Configuring done
+[3.860s] -- Generating done
+[3.865s] -- Build files have been written to: /home/meta3/ros2_ws/build/person_follower_pkg
+[3.900s] Invoked command in '/home/meta3/ros2_ws/build/person_follower_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble /usr/bin/cmake /home/meta3/ros2_ws/src/person_follower_pkg -DCMAKE_INSTALL_PREFIX=/home/meta3/ros2_ws/install/person_follower_pkg
+[3.903s] Invoking command in '/home/meta3/ros2_ws/build/person_follower_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble /usr/bin/cmake --build /home/meta3/ros2_ws/build/person_follower_pkg -- -j6 -l6
+[3.984s] Invoked command in '/home/meta3/ros2_ws/build/person_follower_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble /usr/bin/cmake --build /home/meta3/ros2_ws/build/person_follower_pkg -- -j6 -l6
+[4.007s] Invoking command in '/home/meta3/ros2_ws/build/person_follower_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble /usr/bin/cmake --install /home/meta3/ros2_ws/build/person_follower_pkg
+[4.022s] -- Install configuration: ""
+[4.023s] -- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/ament_index/resource_index/package_run_dependencies/person_follower_pkg
+[4.023s] -- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/ament_index/resource_index/parent_prefix_path/person_follower_pkg
+[4.024s] -- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/environment/ament_prefix_path.sh
+[4.024s] -- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/environment/ament_prefix_path.dsv
+[4.024s] -- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/environment/path.sh
+[4.025s] -- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/environment/path.dsv
+[4.025s] -- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/local_setup.bash
+[4.025s] -- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/local_setup.sh
+[4.026s] -- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/local_setup.zsh
+[4.026s] -- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/local_setup.dsv
+[4.027s] -- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/package.dsv
+[4.027s] -- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/ament_index/resource_index/packages/person_follower_pkg
+[4.027s] -- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/cmake/person_follower_pkgConfig.cmake
+[4.028s] -- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/cmake/person_follower_pkgConfig-version.cmake
+[4.028s] -- Installing: /home/meta3/ros2_ws/install/person_follower_pkg/share/person_follower_pkg/package.xml
+[4.032s] Invoked command in '/home/meta3/ros2_ws/build/person_follower_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meta3/ros2_ws/install/my_lidar_pkg:/opt/ros/humble /usr/bin/cmake --install /home/meta3/ros2_ws/build/person_follower_pkg
