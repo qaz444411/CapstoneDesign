@@ -13,7 +13,6 @@ MODEL_PATH = os.path.join(BASE_PATH, 'model/model.pth.tar-120')
 ANCHOR_PATH = os.path.join(BASE_PATH, 'data/real_my_anchor.png')
 
 # 120 에포크 결과(0.8069)를 고려해 0.75를 기준으로 잡습니다.
-# 친구와 점수가 겹친다면 이 값을 조금씩 조절해보세요.
 THRESHOLD = 0.75 
 
 print(f"--- 모델 로드 중: {MODEL_PATH} ---")
@@ -27,14 +26,22 @@ extractor = FeatureExtractor(
     device='cuda'
 )
 
-# [3] 기준 사진(지문) 특징 추출 (최초 1회만 수행)
-# 파일 경로(str)를 리스트에 담아 전달합니다.
-anchor_feature = extractor([ANCHOR_PATH])
+# 앵커 이미지 존재 여부 확인 후 특징 추출
+if not os.path.exists(ANCHOR_PATH):
+    raise FileNotFoundError(f"앵커 이미지를 찾을 수 없습니다: {ANCHOR_PATH}")
+
+# 최초 1회 특징 추출 시에도 no_grad 적용
+with torch.no_grad():
+    anchor_feature = extractor([ANCHOR_PATH])
 
 # ==========================================
 # [4] 카메라 루프 시작
 # ==========================================
-cap = cv2.VideoCapture(0) # 젯슨 NX 기본 카메라
+cap = cv2.VideoCapture(0) # 젯슨 NX 기본 웹캠 (CSI 카메라인 경우 gstreamer 파이프라인 필요할 수 있음)
+
+if not cap.isOpened():
+    print("에러: 카메라를 열 수 없습니다.")
+    exit()
 
 print("\n" + "="*40)
 print("   실시간 Re-ID 강인성 테스트 시작")
@@ -44,6 +51,7 @@ print("="*40)
 while cap.isOpened():
     ret, frame = cap.read()
     if not ret:
+        print("카메라 프레임을 읽어오지 못했습니다.")
         break
 
     # [A] 탐색 영역(ROI) 설정 (화면 중앙 전신 영역)
@@ -52,36 +60,24 @@ while cap.isOpened():
     x1, y1 = (w - roi_w) // 2, (h - roi_h) // 2
     roi = frame[y1:y1+roi_h, x1:x1+roi_w]
 
-    # [B] 특징 추출 (에러 해결: Numpy 배열을 직접 전달)
-    # OpenCV의 BGR을 RGB로 변환한 후 리스트로 감싸서 전달합니다.
+    # ROI 영역이 유효한지 검증 (크기가 0이 아닌지)
+    if roi.size == 0:
+        continue
+
+    # [B] 특징 추출 (메모리 확보 및 연산 속도 향상을 위해 no_grad 선언)
     roi_rgb = cv2.cvtColor(roi, cv2.COLOR_BGR2RGB)
-    current_feature = extractor([roi_rgb])
     
-    # [C] 코사인 유사도 계산
-    similarity = F.cosine_similarity(anchor_feature, current_feature).item()
+    with torch.no_grad():
+        current_feature = extractor([roi_rgb])
+        # [C] 코사인 유사도 계산
+        similarity = F.cosine_similarity(anchor_feature, current_feature).item()
+
+    # 음수 방지 및 값 제한
+    similarity = max(0.0, min(1.0, similarity))
 
     # [D] 결과 판정 및 시각화
-    # 임계값을 넘으면 초록색(MASTER), 아니면 빨간색(UNKNOWN)
     is_master = similarity > THRESHOLD
     color = (0, 255, 0) if is_master else (0, 0, 255)
     label = "MASTER" if is_master else "UNKNOWN"
     
-    # 가이드 박스 및 정보 표시
-    cv2.rectangle(frame, (x1, y1), (x1+roi_w, y1+roi_h), color, 3)
-    cv2.rectangle(frame, (x1, y1-35), (x1+roi_w, y1), color, -1) # 라벨 배경
-    cv2.putText(frame, f"{label}: {similarity:.3f}", (x1+5, y1-10), 
-                cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
-
-    # 하단 유사도 게이지 바
-    bar_x = int(similarity * w)
-    cv2.rectangle(frame, (0, h-15), (bar_x, h), color, -1)
-
-    # 화면 출력
-    cv2.imshow("Physical 100 - Robustness Test", frame)
-
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
-
-cap.release()
-cv2.destroyAllWindows()
-print("\n--- 테스트 종료 ---")
+    # 가이드 박스
