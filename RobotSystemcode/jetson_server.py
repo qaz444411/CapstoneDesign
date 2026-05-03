@@ -5,6 +5,10 @@ from torchreid.utils import FeatureExtractor
 import numpy as np
 import os
 
+
+
+
+
 # ==========================================
 # [1] 경로 및 임계값 설정
 # ==========================================
