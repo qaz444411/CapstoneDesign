@@ -23,7 +23,7 @@ SERIAL_PORT = '/dev/ttyUSB_DRV0'
 THRESHOLD       = 0.72
 STEER_CENTER    = 90
 STOP_THROTTLE   = 90
-MIN_DRIVE_POWER = 105
+MIN_DRIVE_POWER = 100
 IMAGE_WIDTH     = 640
 
 # ============================================================
